@@ -1,0 +1,70 @@
+.myLanguages {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-deepskyblue);
+  text-align: left;
+}
+.myLanguages:hover {
+  color: var(--color-white);
+}
+.collection {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0 56px;
+  background-color: var(--color-white);
+  border-radius: var(--br-xl);
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 383px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.collection:hover {
+  background-color: var(--color-steelblue-100);
+}
+.studentIcon {
+  position: relative;
+  width: 248px;
+  height: 256px;
+  object-fit: cover;
+}
+.accountHome,
+.frame,
+.navbarParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame {
+  width: 1512px;
+  height: 316px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 70px;
+  box-sizing: border-box;
+  gap: 723px;
+}
+.accountHome,
+.navbarParent {
+  flex-direction: column;
+}
+.navbarParent {
+  width: 1512px;
+  height: 979px;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+}
+.accountHome {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  align-items: center;
+}

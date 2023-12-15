@@ -1,0 +1,40 @@
+.study1 {
+  position: absolute;
+  top: 33px;
+  left: 32px;
+}
+.studyChild,
+.wrapperLine4Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 167px;
+  height: 96px;
+}
+.wrapperLine4Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.024);
+}
+.wrapperLine4 {
+  position: absolute;
+  top: 97px;
+  left: 8px;
+  width: 164px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.study {
+  position: absolute;
+  top: 0;
+  left: 893px;
+  width: 172px;
+  height: 100px;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-600);
+  font-family: var(--font-inter);
+}

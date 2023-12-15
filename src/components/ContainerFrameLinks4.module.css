@@ -1,0 +1,60 @@
+.yourCreations {
+  top: 7px;
+  left: 82px;
+  display: inline-block;
+  width: 322px;
+  height: 68px;
+}
+.book1Icon,
+.div,
+.yourCreations {
+  position: absolute;
+}
+.book1Icon {
+  top: 0;
+  left: 13px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.div {
+  top: 5px;
+  left: 966px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  width: 57px;
+  height: 36px;
+  cursor: pointer;
+}
+.div:hover {
+  color: var(--color-steelblue-100);
+}
+.frameChild {
+  position: absolute;
+  top: 70px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-silver-200);
+  box-sizing: border-box;
+  width: 1045px;
+  height: 1px;
+}
+.frame1 {
+  position: relative;
+  width: 1044px;
+  height: 75px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame {
+  width: 1441px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

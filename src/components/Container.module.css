@@ -1,0 +1,121 @@
+.courses {
+  top: 7px;
+  left: 77px;
+  font-size: var(--font-size-16xl);
+  width: 145px;
+  height: 42px;
+}
+.beginnerNumbers,
+.courses,
+.spanish {
+  position: absolute;
+  display: inline-block;
+}
+.beginnerNumbers {
+  top: 32px;
+  left: 69.6px;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  width: 287px;
+  height: 36px;
+}
+.spanish {
+  top: 114px;
+  left: 884px;
+  width: 94px;
+  height: 30px;
+}
+.creatorMikeHughes,
+.wordsAndPhrases {
+  position: absolute;
+  color: var(--color-dimgray-800);
+  display: inline-block;
+}
+.creatorMikeHughes {
+  top: 79px;
+  left: 74.1px;
+  font-size: var(--font-size-xl);
+  width: 205px;
+  height: 24px;
+}
+.wordsAndPhrases {
+  top: 149px;
+  left: 562px;
+  width: 433px;
+  height: 30px;
+}
+.beginnerNumbersParent,
+.div {
+  cursor: pointer;
+  position: absolute;
+}
+.div {
+  top: 4px;
+  left: 937px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-royalblue);
+  display: inline-block;
+  width: 57px;
+  height: 36px;
+}
+.beginnerNumbersParent {
+  text-decoration: none;
+  top: 100px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1012px;
+  height: 193px;
+  color: inherit;
+}
+.beginnerNumbersParent:hover {
+  background-color: var(--color-whitesmoke-600);
+}
+.book1Icon {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.lessonPlansChild {
+  position: absolute;
+  top: 73.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-silver-200);
+  box-sizing: border-box;
+  width: 1045px;
+  height: 1px;
+}
+.seeAll {
+  position: absolute;
+  top: 316px;
+  left: 882px;
+  color: var(--color-mediumblue);
+  display: inline-block;
+  width: 102px;
+  height: 30px;
+}
+.lessonPlans {
+  position: relative;
+  width: 1044px;
+  height: 346px;
+}
+.lessonPlansWrapper {
+  position: absolute;
+  top: 246px;
+  left: 76px;
+  width: 1235.6px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

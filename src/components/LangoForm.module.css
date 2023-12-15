@@ -1,0 +1,58 @@
+.navbarChild {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 1512px;
+  height: 2.2px;
+}
+.lango {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
+.myAccount {
+  position: absolute;
+  top: 38px;
+  left: 49.2px;
+  display: inline-block;
+  width: 177.8px;
+}
+.dropDownArrow {
+  position: absolute;
+  top: 55.2px;
+  left: 229.7px;
+  width: 17.5px;
+  height: 11.6px;
+}
+.account {
+  position: relative;
+  width: 272px;
+  height: 96px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkgray-400);
+}
+.frame,
+.navbar {
+  position: absolute;
+  top: 0;
+}
+.frame {
+  left: 76px;
+  width: 1436px;
+  height: 96px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-992xl);
+}
+.navbar {
+  left: 0;
+  width: 1512px;
+  height: 103.2px;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-deepskyblue);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,90 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: -0.4px;
+  left: 174.6px;
+  width: 20.9px;
+  height: 36.8px;
+}
+.frameItem {
+  top: -0.1px;
+  left: -2.5px;
+}
+.p {
+  margin: 0;
+}
+.div,
+.vectorParent {
+  position: absolute;
+  height: 54px;
+}
+.div {
+  top: 0;
+  left: 59px;
+  display: inline-block;
+  width: 118px;
+}
+.vectorParent {
+  top: 928px;
+  left: 1258px;
+  width: 193px;
+}
+.english,
+.two {
+  position: absolute;
+  font-family: var(--font-inter);
+  text-align: left;
+  display: inline-block;
+}
+.two {
+  top: 158.2px;
+  left: 376px;
+  font-size: var(--font-size-51xl);
+  font-weight: 600;
+  color: var(--color-black);
+  width: 402px;
+  height: 164.3px;
+}
+.english {
+  top: 21.4px;
+  left: 723px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-700);
+  width: 102px;
+  height: 36.7px;
+}
+.vocalCard {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: calc(50% - 119.4px);
+  left: calc(50% - 432px);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 864px;
+  height: 453.2px;
+}
+.vocalCard:hover {
+  background-color: var(--color-whitesmoke-600);
+}
+.navbarParent,
+.twoVocabCardsBack {
+  position: relative;
+  width: 1512px;
+  height: 982px;
+}
+.twoVocabCardsBack {
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

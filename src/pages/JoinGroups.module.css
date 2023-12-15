@@ -1,0 +1,361 @@
+.frameChild {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 348px;
+  height: 883px;
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.user1Icon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.frame4 {
+  position: absolute;
+  top: 14px;
+  left: 25px;
+  width: 330px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.search11 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.searchGroupsPeople {
+  position: relative;
+  display: inline-block;
+  width: 213px;
+  height: 38px;
+  flex-shrink: 0;
+}
+.frame5,
+.searchBox {
+  display: flex;
+  align-items: flex-start;
+}
+.searchBox {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 300px;
+  height: 56px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-mini) 0;
+  gap: 13px;
+}
+.frame5 {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  width: 330px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
+.jessicaGiloy {
+  position: relative;
+  display: inline-block;
+  width: 164px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.frame6 {
+  position: absolute;
+  top: 40px;
+  left: 89px;
+  width: 202px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame2 {
+  position: relative;
+  width: 380px;
+  height: 883px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameInner,
+.frameItem {
+  position: relative;
+  height: 100px;
+}
+.frameItem {
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 348px;
+}
+.frameInner {
+  background-color: var(--color-royalblue);
+  width: 8px;
+}
+.frame9 {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 316px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.beginnerLearners {
+  position: relative;
+  display: inline-block;
+  width: 276px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.frame10 {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 380px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.group2Icon {
+  position: relative;
+  width: 51px;
+  height: 51px;
+  object-fit: cover;
+}
+.frame11 {
+  position: absolute;
+  top: 32px;
+  left: 25px;
+  width: 330px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.back1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 70px;
+  height: 19.2px;
+  flex-shrink: 0;
+}
+.back,
+.frame12,
+.frame13 {
+  display: flex;
+  flex-direction: column;
+}
+.back {
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 284px;
+  height: 32.5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6.385374069213867px 105.3125px;
+}
+.frame12,
+.frame13 {
+  position: absolute;
+  overflow: hidden;
+  justify-content: center;
+}
+.frame12 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 637.5px;
+  left: 41px;
+  width: 298px;
+  align-items: flex-start;
+}
+.frame13 {
+  top: 62px;
+  left: 0;
+  width: 380px;
+  align-items: flex-end;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-200);
+}
+.frame1,
+.frame7 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame7 {
+  position: relative;
+  width: 355px;
+  height: 670px;
+  margin-top: -692px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame1 {
+  width: 380px;
+  height: 883px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frameChild1,
+.lineDiv {
+  position: absolute;
+  top: 79px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  width: 1082.1px;
+  height: 1px;
+}
+.frameChild1 {
+  top: 736.5px;
+  left: -0.4px;
+}
+.beginnerLearners1,
+.members1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 276px;
+  height: 30px;
+}
+.members1 {
+  top: 27px;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-200);
+}
+.beginnerLearnersParent {
+  position: relative;
+  width: 276px;
+  height: 57px;
+}
+.frame15 {
+  position: absolute;
+  top: 0;
+  left: 11.1px;
+  width: 383px;
+  height: 71px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+}
+.typeMessageHere {
+  position: relative;
+  display: inline-block;
+  width: 283px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.typeMessage {
+  position: absolute;
+  top: 765px;
+  left: 46.1px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 1006px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 73px;
+  color: #807e7e;
+}
+.maskGroupIcon,
+.maskGroupIcon1,
+.maskGroupIcon2 {
+  position: absolute;
+  top: 779px;
+  left: 70.1px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.maskGroupIcon1,
+.maskGroupIcon2 {
+  top: 778px;
+  left: 1001.1px;
+}
+.maskGroupIcon2 {
+  left: 952.1px;
+}
+.frame14 {
+  position: relative;
+  width: 1081.2px;
+  height: 821px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame,
+.frameParent,
+.joinGroups {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  width: 1467.1px;
+  height: 883px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: 5px;
+}
+.frameParent,
+.joinGroups {
+  flex-direction: column;
+}
+.frameParent {
+  width: 1512px;
+  height: 987px;
+}
+.joinGroups {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: #bfbfbf;
+  font-family: var(--font-inter);
+}

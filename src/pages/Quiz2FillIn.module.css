@@ -1,0 +1,127 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: -1.4px;
+  left: 173.6px;
+  width: 20.9px;
+  height: 36.8px;
+}
+.frameItem {
+  top: -1.1px;
+  left: -2.5px;
+}
+.div,
+.vectorParent {
+  position: absolute;
+  height: 54px;
+}
+.div {
+  top: 0;
+  left: 67px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 78px;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 928px;
+  left: 1259px;
+  width: 192px;
+}
+.kisspngThoughtClipArtThinkIcon {
+  position: absolute;
+  top: 589px;
+  left: 4px;
+  width: 402px;
+  height: 292px;
+  object-fit: cover;
+}
+.two {
+  color: var(--color-green);
+}
+.iHaveTwoContainer {
+  position: absolute;
+  top: 47px;
+  left: 65px;
+  display: inline-block;
+  width: 684px;
+  height: 62px;
+}
+.answerChild,
+.yoTengo {
+  position: absolute;
+  top: 0;
+}
+.yoTengo {
+  left: 12px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  color: var(--color-black);
+  width: 684px;
+  height: 62px;
+}
+.answerChild {
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  width: 335px;
+  height: 47.6px;
+}
+.typeAnswerHere {
+  position: absolute;
+  top: 12.2px;
+  left: 25px;
+  display: inline-block;
+  width: 274px;
+  height: 43.9px;
+}
+.answer {
+  position: absolute;
+  top: 136.3px;
+  left: 0;
+  width: 335px;
+  height: 56.1px;
+  color: var(--color-darkgray-100);
+}
+.iHaveTwoCatsParent,
+.lightBulb1Icon {
+  position: absolute;
+  top: 397px;
+  left: 421px;
+  width: 749px;
+  height: 192.4px;
+}
+.lightBulb1Icon {
+  top: 355px;
+  left: 71px;
+  width: 50px;
+  height: 51px;
+  object-fit: cover;
+}
+.navbarParent,
+.quiz2FillIn {
+  position: relative;
+  width: 1512px;
+  height: 982px;
+}
+.quiz2FillIn {
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-inter);
+}

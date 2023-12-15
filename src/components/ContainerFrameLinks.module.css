@@ -1,0 +1,61 @@
+.frame1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 103.2px;
+  overflow: hidden;
+}
+.study1 {
+  position: relative;
+}
+.study {
+  cursor: pointer;
+  text-decoration: none;
+  width: 167px;
+  height: 96px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-2xl) var(--padding-13xl);
+  color: inherit;
+}
+.create,
+.frame2,
+.study {
+  display: flex;
+  box-sizing: border-box;
+}
+.create {
+  cursor: pointer;
+  text-decoration: none;
+  width: 167px;
+  height: 96px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  color: inherit;
+}
+.frame2 {
+  position: absolute;
+  top: 0;
+  left: 893px;
+  height: 99px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.frame {
+  position: relative;
+  width: 1512px;
+  height: 103.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-600);
+  font-family: var(--font-inter);
+}

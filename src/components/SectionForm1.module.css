@@ -1,0 +1,159 @@
+.areYouAPageChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-deepskyblue);
+  width: 1512px;
+  height: 982px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 343.9px;
+  height: 92.2px;
+}
+.student {
+  position: absolute;
+  top: 21px;
+  left: 90px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 297px;
+  height: 117px;
+}
+.creater:hover,
+.student:hover {
+  color: var(--color-black);
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 299px;
+  left: 0;
+  width: 387px;
+  height: 138px;
+}
+.studentIcon {
+  position: absolute;
+  top: 0;
+  left: 39px;
+  width: 248px;
+  height: 256px;
+  object-fit: cover;
+}
+.frameParent,
+.instructor {
+  position: absolute;
+  top: 301px;
+  left: 990px;
+  width: 387px;
+  height: 437px;
+}
+.instructor {
+  top: 21px;
+  left: 69px;
+  display: inline-block;
+  width: 297px;
+  height: 117px;
+}
+.instructorIcon,
+.rectangleGroup {
+  position: absolute;
+  top: 299px;
+  left: 0;
+  width: 366px;
+  height: 138px;
+}
+.instructorIcon {
+  top: 0;
+  left: 37px;
+  width: 248px;
+  height: 256px;
+  object-fit: cover;
+}
+.frameGroup,
+.frameInner {
+  position: absolute;
+  top: 301px;
+  left: 587px;
+  width: 366px;
+  height: 437px;
+}
+.frameInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 343.9px;
+  height: 92.2px;
+}
+.creater {
+  position: absolute;
+  top: 21px;
+  left: 89px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 299px;
+  left: 4px;
+  width: 343.9px;
+  height: 92.2px;
+}
+.creatorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 248px;
+  height: 256px;
+  object-fit: cover;
+}
+.frameContainer {
+  position: absolute;
+  top: 301px;
+  left: 174px;
+  width: 347.9px;
+  height: 391.2px;
+}
+.areYouA {
+  position: absolute;
+  top: 119px;
+  left: 578px;
+  font-size: var(--font-size-41xl);
+}
+.areYouAPage,
+.areYouAPageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 982px;
+}
+.areYouAPageWrapper {
+  margin: 0 !important;
+  top: 985px;
+  flex-shrink: 0;
+  z-index: 5;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

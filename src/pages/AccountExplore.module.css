@@ -1,0 +1,233 @@
+.searchForCollections {
+  position: relative;
+  display: inline-block;
+  width: 662px;
+}
+.search,
+.searchBarChild {
+  position: absolute;
+  border-radius: var(--br-31xl);
+}
+.search {
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 1080px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-2xl) 175.95574951171875px;
+}
+.searchBarChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-deepskyblue);
+  top: 7px;
+  left: 927px;
+  width: 145px;
+  height: 65px;
+}
+.searchBarChild:hover {
+  background-color: var(--color-steelblue-100);
+}
+.search1 {
+  position: absolute;
+  top: 25px;
+  left: 961px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  color: var(--color-white);
+  width: 107px;
+  height: 62px;
+}
+.languageIcon {
+  position: relative;
+  width: 25px;
+  height: 28.5px;
+  object-fit: cover;
+}
+.spanish {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 113px;
+  height: 44.5px;
+}
+.dropDownArrow {
+  position: absolute;
+  top: 10.5px;
+  left: 91px;
+  width: 11.8px;
+  height: 9.5px;
+}
+.frame2 {
+  position: relative;
+  width: 113px;
+  height: 44.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.language {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 184px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20.526315689086914px var(--padding-smi) 0;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frameChild,
+.searchBar {
+  position: relative;
+  width: 1080px;
+  height: 87px;
+}
+.frameChild {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 251px;
+  height: 79px;
+  cursor: pointer;
+}
+.frameChild:hover {
+  background-color: var(--color-whitesmoke-600);
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 251px;
+  height: 87px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.connect {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.frame4,
+.frameIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.frame4 {
+  top: -0.2px;
+  left: 101px;
+  width: 150px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameIcon {
+  top: 14px;
+  left: 36px;
+  width: 50px;
+  height: 59px;
+  object-fit: cover;
+}
+.chatButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 251px;
+  height: 87px;
+}
+.frame,
+.frame1 {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame1 {
+  width: 1384px;
+  height: 87px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-34xl);
+  position: undefined;
+  margin-left: 70px;
+}
+.frame {
+  width: 1512px;
+  height: 228px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-18xl);
+}
+.exploreDiverseLanguages {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 756px;
+  height: 267px;
+  flex-shrink: 0;
+}
+.frame5 {
+  width: 1509px;
+  height: 645px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: 81px 48px;
+  box-sizing: border-box;
+  background-image: url(/public/frame21@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-31xl);
+  color: #545454;
+}
+.accountExplore,
+.frame5,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1512px;
+  height: 921px;
+  align-items: center;
+  gap: 48px;
+}
+.accountExplore {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,89 @@
+.lango {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  font-size: var(--font-size-31xl);
+  font-weight: 800;
+  color: var(--color-deepskyblue);
+}
+.study1 {
+  position: relative;
+}
+.study {
+  position: absolute;
+  top: 0;
+  left: 817px;
+  width: 167px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-2xl) var(--padding-13xl);
+  box-sizing: border-box;
+}
+.myAccount {
+  position: relative;
+  display: inline-block;
+  width: 177.8px;
+  flex-shrink: 0;
+}
+.dropDownArrow {
+  position: relative;
+  width: 17.5px;
+  height: 11.6px;
+}
+.account,
+.create,
+.explore {
+  position: absolute;
+  top: 0;
+  height: 96px;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.account {
+  left: 1164px;
+  width: 272px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xl) 26.646072387695312px;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkgray-400);
+}
+.create,
+.explore {
+  cursor: pointer;
+  text-decoration: none;
+  left: 650px;
+  width: 167px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xl) var(--padding-2xs);
+  color: inherit;
+}
+.create {
+  left: 997px;
+  padding: var(--padding-5xl);
+}
+.frame {
+  position: relative;
+  width: 1436px;
+  height: 96px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navbar {
+  width: 1512px;
+  height: 103.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-600);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,108 @@
+.pickUpWhere,
+.welcomeBack {
+  position: relative;
+  font-weight: 600;
+}
+.pickUpWhere {
+  display: inline-block;
+  width: 725px;
+}
+.frame1 {
+  width: 725px;
+  height: 259px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-58xl);
+}
+.wordOfThe {
+  position: absolute;
+  top: 0;
+  left: 41.5px;
+  font-weight: 600;
+  color: var(--color-deepskyblue);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 173px;
+  height: 40px;
+}
+.addToVocabulary,
+.rectangleParent {
+  position: absolute;
+  top: 8.6px;
+  left: 7px;
+}
+.rectangleParent {
+  top: 467.2px;
+  left: 83px;
+  width: 173px;
+  height: 40px;
+  font-size: var(--font-size-lg);
+}
+.image1Icon,
+.image2Icon {
+  position: absolute;
+  top: 17px;
+  left: 49px;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.image2Icon {
+  top: 278px;
+  left: 72px;
+  width: 72px;
+  height: 72px;
+}
+.kokoro {
+  position: absolute;
+  top: 296px;
+  left: 169px;
+  font-weight: 600;
+}
+.collection {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 338px;
+  height: 357.6px;
+}
+.wordOfTheWeekParent {
+  position: relative;
+  width: 338px;
+  height: 507.2px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.frame {
+  width: 1512px;
+  height: 520px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-34xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-304xl);
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-deepskyblue);
+  font-family: var(--font-inter);
+}

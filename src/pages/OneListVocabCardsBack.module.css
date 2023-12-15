@@ -1,0 +1,224 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 161.6px;
+  background-color: var(--color-gray-100);
+  width: 43.2px;
+  height: 66px;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 12.6px;
+  left: -2.5px;
+  width: 20.9px;
+  height: 36.8px;
+}
+.frameInner {
+  left: 170.7px;
+}
+.p {
+  margin: 0;
+}
+.div {
+  position: absolute;
+  top: 13px;
+  left: 57px;
+  display: inline-block;
+  width: 116px;
+  height: 53px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 896px;
+  left: 1263px;
+  width: 204.8px;
+  height: 66px;
+}
+.english,
+.one {
+  position: absolute;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.one {
+  top: 155px;
+  left: 369.4px;
+  font-size: var(--font-size-51xl);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 394.9px;
+  height: 161px;
+}
+.english {
+  top: 21px;
+  left: 710.3px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-700);
+}
+.vocalCard {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: calc(50% - 127.5px);
+  left: calc(50% - 411.2px);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 848.8px;
+  height: 444px;
+}
+.vocalCard:hover {
+  background-color: var(--color-whitesmoke-600);
+}
+.learn1 {
+  position: absolute;
+  top: 20px;
+  left: 26.5px;
+}
+.learnChild,
+.wrapperLine4Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 121.8px;
+  height: 71px;
+}
+.wrapperLine4Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.375);
+}
+.wrapperLine4 {
+  position: absolute;
+  top: 70px;
+  left: 12.3px;
+  width: 116.9px;
+  height: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn {
+  position: absolute;
+  top: 124px;
+  left: 552.1px;
+  width: 129.2px;
+  height: 72.7px;
+}
+.quiz {
+  position: relative;
+}
+.learn2 {
+  position: absolute;
+  top: 124px;
+  left: 782px;
+  width: 121.8px;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-mini) 26.526315689086914px;
+  box-sizing: border-box;
+}
+.beginnerNumbers {
+  position: absolute;
+  top: 45px;
+  left: calc(50% - 250px);
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-darkslateblue);
+  white-space: pre-wrap;
+}
+.setAsCompleted {
+  position: relative;
+  display: inline-block;
+  width: 227px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.checkmark1Icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: -18px;
+}
+.completed {
+  position: absolute;
+  top: 159px;
+  left: 1258px;
+  width: 239px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-6xl);
+  color: var(--color-mediumseagreen);
+}
+.back1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 48.8px;
+  height: 19.2px;
+  flex-shrink: 0;
+}
+.back,
+.learnParent {
+  position: absolute;
+  box-sizing: border-box;
+}
+.back {
+  cursor: pointer;
+  border: 1px solid var(--color-deepskyblue);
+  padding: 6.3853759765625px 0;
+  background-color: var(--color-azure);
+  top: 13px;
+  left: 76px;
+  width: 143px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.back:hover {
+  background-color: var(--color-deepskyblue);
+}
+.learnParent {
+  top: 101px;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-dimgray-900);
+  width: 1512px;
+  height: 199px;
+}
+.navbarParent {
+  position: relative;
+  width: 1512px;
+  height: 983px;
+}
+.oneListVocabCardsBack {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

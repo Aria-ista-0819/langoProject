@@ -1,0 +1,257 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 161.1px;
+  background-color: var(--color-gray-100);
+  width: 43.2px;
+  height: 67.4px;
+}
+.frameItem {
+  position: absolute;
+  top: 13.2px;
+  left: 170.2px;
+  width: 20.9px;
+  height: 36.8px;
+}
+.p {
+  margin: 0;
+}
+.div {
+  position: absolute;
+  top: 13.3px;
+  left: 57px;
+  display: inline-block;
+  width: 115.9px;
+  height: 54.1px;
+}
+.arrowIcon,
+.frameInner {
+  position: absolute;
+  top: 13.2px;
+  left: -2.5px;
+  width: 20.9px;
+  height: 36.8px;
+}
+.arrowIcon {
+  left: 170.2px;
+  cursor: pointer;
+}
+.rectangleParent {
+  position: absolute;
+  top: 914.6px;
+  left: 1263.4px;
+  width: 204.4px;
+  height: 67.4px;
+}
+.english,
+.one {
+  position: absolute;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.one {
+  top: 158.2px;
+  left: 369.4px;
+  font-size: var(--font-size-51xl);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 127px;
+  height: 85px;
+}
+.english {
+  top: 21.4px;
+  left: 710.3px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-700);
+}
+.vocalCard {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: calc(50% - 119.4px);
+  left: calc(50% - 411.2px);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 848.8px;
+  height: 453.2px;
+}
+.learn1 {
+  position: absolute;
+  top: 20.4px;
+  left: 26.5px;
+}
+.learnChild,
+.wrapperLine4Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 121.8px;
+  height: 72.5px;
+}
+.wrapperLine4Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.375);
+}
+.wrapperLine4 {
+  position: absolute;
+  top: 71.5px;
+  left: 12.3px;
+  width: 116.9px;
+  height: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn {
+  position: absolute;
+  top: 126.6px;
+  left: 552.1px;
+  width: 129.2px;
+  height: 74.2px;
+}
+.quiz {
+  position: relative;
+}
+.learn2 {
+  position: absolute;
+  top: 126.6px;
+  left: 782px;
+  width: 121.8px;
+  height: 72.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 16.06026840209961px 26.52587890625px;
+  box-sizing: border-box;
+}
+.beginnerNumbers {
+  position: absolute;
+  top: 45.9px;
+  left: calc(50% - 250px);
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-darkslateblue);
+  white-space: pre-wrap;
+}
+.setAsCompleted {
+  position: relative;
+  display: inline-block;
+  width: 223px;
+  height: 40.8px;
+  flex-shrink: 0;
+}
+.checkmark1Icon {
+  position: relative;
+  width: 29.5px;
+  height: 30.6px;
+  object-fit: cover;
+  margin-left: -17px;
+}
+.completed {
+  position: absolute;
+  top: 162.3px;
+  left: 1262.5px;
+  width: 234.8px;
+  height: 40.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-6xl);
+  color: var(--color-mediumseagreen);
+}
+.menuIcon,
+.menuIconChild,
+.menuIconInner,
+.menuIconItem {
+  position: absolute;
+  top: -1.5px;
+  left: -1.5px;
+  width: 21.7px;
+  height: 3px;
+}
+.menuIcon,
+.menuIconInner,
+.menuIconItem {
+  top: 6.7px;
+}
+.menuIcon,
+.menuIconInner {
+  top: 14.8px;
+}
+.menuIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 164.3px;
+  left: 52.1px;
+  width: 18.7px;
+  height: 16.3px;
+}
+.back1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 47.9px;
+  height: 19.6px;
+  flex-shrink: 0;
+}
+.back,
+.learnParent {
+  position: absolute;
+  box-sizing: border-box;
+}
+.back {
+  cursor: pointer;
+  border: 1px solid var(--color-deepskyblue);
+  padding: 0;
+  background-color: var(--color-azure);
+  top: 13.3px;
+  left: 101.2px;
+  width: 140.5px;
+  height: 32.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.back:hover {
+  background-color: var(--color-deepskyblue);
+}
+.learnParent {
+  top: 103.1px;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-dimgray-900);
+  width: 1512px;
+  height: 203.1px;
+}
+.navbarParent {
+  position: relative;
+  width: 1512px;
+  height: 982px;
+}
+.oneVocabCardsBack {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

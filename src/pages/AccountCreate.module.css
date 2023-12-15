@@ -1,0 +1,95 @@
+.seeAll {
+  position: relative;
+  display: inline-block;
+  width: 146px;
+  height: 25px;
+  flex-shrink: 0;
+}
+.frame {
+  width: 528px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.drafts {
+  position: absolute;
+  top: 8px;
+  left: 103px;
+  display: inline-block;
+  width: 322px;
+  height: 68px;
+}
+.blueprint1Icon {
+  position: absolute;
+  top: 0;
+  left: 34px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.frameChild {
+  position: absolute;
+  top: 75.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-silver-200);
+  box-sizing: border-box;
+  width: 1045px;
+  height: 1px;
+}
+.frame2 {
+  position: relative;
+  width: 1044px;
+  height: 76px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame1 {
+  width: 1462px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+}
+.creatorIcon {
+  position: relative;
+  width: 248px;
+  height: 256px;
+  object-fit: cover;
+}
+.frame3 {
+  width: 316px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.accountCreate,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1512px;
+  height: 983px;
+  align-items: flex-end;
+  gap: 44px;
+}
+.accountCreate {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-mediumblue);
+  font-family: var(--font-inter);
+}

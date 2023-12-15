@@ -1,0 +1,59 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: -1.4px;
+  left: 173.6px;
+  width: 20.9px;
+  height: 36.8px;
+}
+.frameItem {
+  left: -2.5px;
+}
+.div,
+.vectorParent {
+  position: absolute;
+  height: 53px;
+}
+.div {
+  top: 0;
+  left: 67px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 78px;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 910px;
+  left: 1259px;
+  width: 192px;
+}
+.lightBulb1Icon {
+  position: absolute;
+  top: 347px;
+  left: 71px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.navbarParent,
+.quiz1Matching {
+  position: relative;
+  width: 1512px;
+  height: 963px;
+}
+.quiz1Matching {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

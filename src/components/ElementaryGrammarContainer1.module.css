@@ -1,0 +1,53 @@
+.collection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 338px;
+  height: 357.6px;
+}
+.elementaryGrammar,
+.grammarIsAn {
+  position: undefined;
+  display: inline-block;
+  flex-shrink: 0;
+  margin-left: 31px;
+}
+.elementaryGrammar {
+  font-weight: 600;
+  width: 283px;
+  height: 67px;
+}
+.grammarIsAn {
+  font-size: var(--font-size-xl);
+  width: 267px;
+  height: 68px;
+}
+.frame1 {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 313.5px;
+  height: 247px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-93xl);
+}
+.frame {
+  position: relative;
+  width: 338px;
+  height: 357.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

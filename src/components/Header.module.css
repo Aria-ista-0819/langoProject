@@ -1,0 +1,130 @@
+.signUp {
+  position: absolute;
+  top: 32px;
+  left: 18px;
+}
+.signInChild {
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 185px;
+  height: 102px;
+}
+.login,
+.signIn,
+.signInChild {
+  position: absolute;
+}
+.signIn {
+  cursor: pointer;
+  text-decoration: none;
+  top: 0;
+  left: 1327px;
+  width: 185px;
+  height: 102px;
+  color: inherit;
+}
+.logIn:hover,
+.signIn:hover {
+  background-color: var(--color-whitesmoke-600);
+}
+.login {
+  top: 31px;
+  left: 41px;
+}
+.logInChild {
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-whitesmoke-500);
+  box-sizing: border-box;
+  width: 185px;
+  height: 102px;
+}
+.lango,
+.logIn,
+.logInChild {
+  position: absolute;
+}
+.logIn {
+  cursor: pointer;
+  text-decoration: none;
+  top: 1px;
+  left: 1142px;
+  width: 185px;
+  height: 102px;
+  color: var(--color-black);
+}
+.lango {
+  top: 21px;
+  left: 76px;
+  font-size: var(--font-size-31xl);
+  font-weight: 800;
+}
+.languageChild,
+.navbarChild {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 1512px;
+  height: 2.2px;
+}
+.languageChild {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 212px;
+  height: 57px;
+}
+.english {
+  position: absolute;
+  top: 18px;
+  left: 58px;
+  display: inline-block;
+  width: 113px;
+  height: 39px;
+}
+.dropDownArrow,
+.languageIcon {
+  position: absolute;
+  top: 27.2px;
+  left: 184px;
+  width: 11.8px;
+  height: 8.3px;
+}
+.languageIcon {
+  top: 18px;
+  left: 15px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.language {
+  position: absolute;
+  top: 28px;
+  left: 900px;
+  width: 212px;
+  height: 57px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.navbar,
+.navbarWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 103.2px;
+}
+.navbarWrapper {
+  margin: 0 !important;
+  top: -1px;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-deepskyblue);
+  font-family: var(--font-inter);
+}

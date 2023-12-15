@@ -1,0 +1,140 @@
+.lango {
+  position: absolute;
+  top: 20px;
+  left: 76px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.navbarChild {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 1512px;
+  height: 2.2px;
+}
+.myAccount {
+  position: absolute;
+  top: 38px;
+  left: 49.2px;
+  display: inline-block;
+  width: 177.8px;
+}
+.account,
+.dropDownArrow,
+.navbar {
+  position: absolute;
+  top: 55.2px;
+  left: 229.7px;
+  width: 17.5px;
+  height: 11.6px;
+}
+.account,
+.navbar {
+  top: 0;
+  left: 1240px;
+  width: 272px;
+  height: 96px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkgray-400);
+}
+.navbar {
+  left: 0;
+  width: 1512px;
+  height: 103.2px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-deepskyblue);
+}
+.create1 {
+  position: relative;
+}
+.create1:hover {
+  color: var(--color-black);
+}
+.create,
+.explore {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 3px;
+  left: 1060px;
+  width: 167px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  color: inherit;
+}
+.explore {
+  left: 693px;
+  padding: var(--padding-5xl) var(--padding-2xs);
+}
+.study1 {
+  position: absolute;
+  top: 33px;
+  left: 32px;
+}
+.studyChild,
+.wrapperLine4Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 167px;
+  height: 96px;
+}
+.wrapperLine4Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.024);
+}
+.wrapperLine4 {
+  position: absolute;
+  top: 97px;
+  left: 8px;
+  width: 164px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.study {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 893px;
+  width: 172px;
+  height: 100px;
+  color: inherit;
+}
+.studentIcon {
+  position: absolute;
+  top: 723px;
+  left: 1227px;
+  width: 248px;
+  height: 256px;
+  object-fit: cover;
+}
+.accountStudy,
+.navbarParent {
+  position: relative;
+  width: 1512px;
+  height: 979px;
+}
+.accountStudy {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-600);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,45 @@
+.create1 {
+  position: relative;
+}
+.create,
+.study {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 3px;
+  left: 1060px;
+  width: 167px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  color: inherit;
+}
+.study {
+  top: 0;
+  left: 893px;
+  align-items: flex-start;
+  padding: var(--padding-2xl) var(--padding-13xl);
+}
+.frame,
+.frame1 {
+  width: 1512px;
+  height: 103.2px;
+  overflow: hidden;
+}
+.frame1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frame {
+  position: relative;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-600);
+  font-family: var(--font-inter);
+}

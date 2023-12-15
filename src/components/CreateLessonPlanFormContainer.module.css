@@ -1,0 +1,119 @@
+.spanish {
+  position: absolute;
+  top: 18px;
+  left: 46.5px;
+}
+.dropDownArrow,
+.languageIcon {
+  position: absolute;
+  top: 27px;
+  left: 593px;
+  width: 9.8px;
+  height: 8.6px;
+}
+.languageIcon {
+  top: 18px;
+  left: 12px;
+  width: 20px;
+  height: 25px;
+  object-fit: cover;
+}
+.frameChild,
+.language {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 628px;
+  height: 57px;
+}
+.language {
+  top: 118px;
+  font-size: var(--font-size-xl);
+}
+.frameChild {
+  top: 227px;
+}
+.createANew {
+  position: absolute;
+  top: 0;
+  left: 69px;
+  font-size: var(--font-size-21xl);
+}
+.chooseALanguage,
+.frameItem,
+.name {
+  position: absolute;
+  top: 66px;
+  left: 0;
+}
+.frameItem,
+.name {
+  top: 188px;
+}
+.frameItem {
+  top: 340px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 628px;
+  height: 154px;
+}
+.description {
+  position: absolute;
+  top: 301px;
+  left: 0;
+}
+.submit1 {
+  position: relative;
+}
+.submit {
+  position: absolute;
+  top: 546px;
+  left: 344px;
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 284px;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.back1 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.back {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-500);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 546px;
+  left: 0;
+  box-sizing: border-box;
+  width: 272px;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.languageParent {
+  position: absolute;
+  top: 93px;
+  left: 214px;
+  width: 628px;
+  height: 607px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

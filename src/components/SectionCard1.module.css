@@ -1,0 +1,145 @@
+.learn1 {
+  position: absolute;
+  top: 20.4px;
+  left: 27px;
+  display: inline-block;
+  width: 80px;
+  height: 36.7px;
+}
+.learnChild,
+.wrapperLine4Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 124px;
+  height: 72.5px;
+}
+.wrapperLine4Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.375);
+}
+.wrapperLine4 {
+  position: absolute;
+  top: 71.5px;
+  left: 12.5px;
+  width: 119px;
+  height: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn {
+  position: absolute;
+  top: 126.7px;
+  left: 535px;
+  width: 131.5px;
+  height: 74.2px;
+}
+.quiz {
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 36.7px;
+  flex-shrink: 0;
+}
+.learn2 {
+  position: absolute;
+  top: 126.7px;
+  left: 769px;
+  width: 124px;
+  height: 72.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 15.311849594116211px 26.99951171875px;
+  box-sizing: border-box;
+}
+.beginnerNumbers {
+  position: absolute;
+  top: 46px;
+  left: calc(50% - 268px);
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-darkslateblue);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 537px;
+  height: 153px;
+}
+.menuIcon,
+.menuIconChild,
+.menuIconInner,
+.menuIconItem {
+  position: absolute;
+  top: -1.5px;
+  left: -1.5px;
+  width: 22px;
+  height: 3px;
+}
+.menuIcon,
+.menuIconInner,
+.menuIconItem {
+  top: 6.7px;
+}
+.menuIcon,
+.menuIconInner {
+  top: 14.8px;
+}
+.menuIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 164.4px;
+  left: 26px;
+  width: 19px;
+  height: 16.3px;
+}
+.back1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 48.8px;
+  height: 19.6px;
+  flex-shrink: 0;
+}
+.back,
+.learnParent {
+  position: absolute;
+  box-sizing: border-box;
+}
+.back {
+  cursor: pointer;
+  border: 1px solid var(--color-deepskyblue);
+  padding: 0;
+  background-color: var(--color-azure);
+  top: 13.4px;
+  left: 76px;
+  width: 143px;
+  height: 32.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.back:hover {
+  background-color: var(--color-deepskyblue);
+}
+.learnParent {
+  top: 103px;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-dimgray-900);
+  width: 1512px;
+  height: 203px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,31 @@
+.continueLesson,
+.frame,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame {
+  width: 1512px;
+  height: 780px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 27px;
+}
+.continueLesson,
+.frameParent {
+  height: 1046px;
+}
+.frameParent {
+  width: 1512px;
+  align-items: center;
+  gap: 47px;
+}
+.continueLesson {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+}

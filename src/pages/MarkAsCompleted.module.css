@@ -1,0 +1,197 @@
+.collection {
+  position: absolute;
+  top: 266px;
+  left: 76px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 338px;
+  height: 357.6px;
+}
+.studentIcon {
+  position: absolute;
+  top: 726px;
+  left: 1264px;
+  width: 248px;
+  height: 256px;
+  object-fit: cover;
+}
+.collection1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-honeydew);
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 338px;
+  height: 357.6px;
+}
+.beginnerNumbers,
+.getStartedWith {
+  position: absolute;
+  left: 27px;
+  display: inline-block;
+}
+.beginnerNumbers {
+  top: 46px;
+  font-weight: 600;
+  width: 284px;
+}
+.getStartedWith {
+  top: 225px;
+  font-size: var(--font-size-xl);
+  width: 268px;
+  height: 68px;
+}
+.begineerNumbers {
+  position: relative;
+  width: 338px;
+  height: 357.6px;
+}
+.collection2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-honeydew);
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 248.1px;
+  height: 65.3px;
+}
+.quiz {
+  position: absolute;
+  top: 13.4px;
+  left: 56.9px;
+  font-weight: 600;
+  display: inline-block;
+  width: 81px;
+  height: 39px;
+}
+.frameChild {
+  position: absolute;
+  top: 21.8px;
+  left: 149.9px;
+  width: 59px;
+  height: 23.1px;
+}
+.collectionParent {
+  position: relative;
+  width: 248.1px;
+  height: 65.3px;
+  font-size: var(--font-size-16xl);
+  color: var(--color-gray-300);
+}
+.begineerNumbersParent {
+  position: absolute;
+  top: 266px;
+  left: 76px;
+  width: 338px;
+  height: 495.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-54xl);
+  font-size: var(--font-size-11xl);
+}
+.collection3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 339px;
+  height: 78px;
+}
+.collection3:hover {
+  background-color: var(--color-whitesmoke-600);
+}
+.createYourOwn {
+  position: absolute;
+  top: calc(50% - 21px);
+  left: calc(50% - 139.5px);
+  font-weight: 600;
+}
+.collectionGroup {
+  position: absolute;
+  top: 840px;
+  left: 76px;
+  width: 339px;
+  height: 78px;
+  cursor: pointer;
+  color: var(--color-deepskyblue);
+}
+.bienvenidos,
+.frameItem {
+  position: absolute;
+  top: 23px;
+  left: 346px;
+}
+.frameItem {
+  top: 100px;
+  left: 45px;
+  width: 1397px;
+  height: 2px;
+}
+.back1 {
+  position: relative;
+  display: inline-block;
+  width: 48.8px;
+  height: 19.2px;
+  flex-shrink: 0;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  background-color: var(--color-azure);
+  border: 1px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  width: 143px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6.3853759765625px 0;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+}
+.back:hover {
+  background-color: var(--color-deepskyblue);
+}
+.bienvenidosParent {
+  position: absolute;
+  top: 117px;
+  left: 25px;
+  width: 1442px;
+  height: 102px;
+}
+.markAsCompleted,
+.navbarParent {
+  position: relative;
+  width: 1512px;
+  height: 982px;
+}
+.markAsCompleted {
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

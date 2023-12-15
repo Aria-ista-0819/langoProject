@@ -1,0 +1,347 @@
+.lango {
+  position: absolute;
+  top: 20px;
+  left: 74.7px;
+  font-size: var(--font-size-31xl);
+  font-weight: 800;
+  color: var(--color-deepskyblue);
+  cursor: pointer;
+}
+.navbarChild {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 1485.5px;
+  height: 2.1px;
+}
+.myAccount {
+  position: absolute;
+  top: 38px;
+  left: 48.3px;
+  display: inline-block;
+  width: 174.7px;
+}
+.account,
+.dropDownArrow {
+  position: absolute;
+  top: 55.2px;
+  left: 225.6px;
+  width: 17.3px;
+  height: 11.6px;
+}
+.account {
+  top: 0;
+  left: 1218.2px;
+  width: 267.2px;
+  height: 96px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkgray-400);
+}
+.study1 {
+  position: absolute;
+  top: 33px;
+  left: 31.4px;
+}
+.studyChild,
+.wrapperLine4Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 164.1px;
+  height: 96px;
+}
+.wrapperLine4Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.025);
+}
+.wrapperLine4 {
+  position: absolute;
+  top: 97px;
+  left: 7.9px;
+  width: 161.1px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.study {
+  position: absolute;
+  top: 0;
+  left: 877.3px;
+  width: 169px;
+  height: 100px;
+}
+.explore {
+  cursor: pointer;
+  text-decoration: none;
+  top: 3px;
+  left: 680.8px;
+  width: 164.1px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-5xl) 8.63157844543457px;
+  box-sizing: border-box;
+  color: inherit;
+}
+.create,
+.explore,
+.navbar {
+  position: absolute;
+}
+.create {
+  cursor: pointer;
+  text-decoration: none;
+  top: 3px;
+  left: 1041.4px;
+  width: 164.1px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-5xl) 21.631441116333008px;
+  box-sizing: border-box;
+  color: inherit;
+}
+.navbar {
+  top: 0;
+  left: 26.5px;
+  width: 1485.5px;
+  height: 103.1px;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-600);
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: -0.4px;
+  left: 170.2px;
+  width: 20.9px;
+  height: 36.8px;
+}
+.frameItem {
+  left: -2.5px;
+}
+.div,
+.vectorParent {
+  position: absolute;
+  height: 53px;
+}
+.div {
+  top: 0;
+  left: 57px;
+  display: inline-block;
+  width: 115.9px;
+}
+.vectorParent {
+  top: 909px;
+  left: 1263.4px;
+  width: 188.6px;
+}
+.maskGroupIcon,
+.maskGroupIcon1 {
+  position: absolute;
+  top: 388px;
+  left: 696.6px;
+  width: 29.5px;
+  height: 30px;
+  object-fit: cover;
+}
+.maskGroupIcon1 {
+  left: 776.1px;
+}
+.spanish,
+.uno {
+  position: absolute;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.uno {
+  top: 155px;
+  left: 369.4px;
+  font-size: var(--font-size-51xl);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 394.9px;
+  height: 161px;
+}
+.spanish {
+  top: 21px;
+  left: 710.3px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-700);
+}
+.vocalCard {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: calc(50% - 127.5px);
+  left: calc(50% - 411.2px);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 848.8px;
+  height: 444px;
+}
+.vocalCard:hover {
+  background-color: var(--color-whitesmoke-600);
+}
+.learn1 {
+  position: absolute;
+  top: 20px;
+  left: 26.5px;
+}
+.learnChild,
+.wrapperLine4Item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 121.8px;
+  height: 71px;
+}
+.wrapperLine4Item {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.375);
+}
+.wrapperLine41 {
+  position: absolute;
+  top: 70px;
+  left: 12.3px;
+  width: 116.9px;
+  height: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn {
+  position: absolute;
+  top: 124px;
+  left: 552.1px;
+  width: 129.2px;
+  height: 72.7px;
+}
+.quiz {
+  position: relative;
+}
+.learn2 {
+  position: absolute;
+  top: 124px;
+  left: 782px;
+  width: 121.8px;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-mini) 26.526247024536133px;
+  box-sizing: border-box;
+}
+.beginnerNumbers {
+  position: absolute;
+  top: 45px;
+  left: calc(50% - 250px);
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-darkslateblue);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 527.6px;
+  height: 150px;
+}
+.setAsCompleted {
+  position: relative;
+  display: inline-block;
+  width: 223px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.checkmark1Icon {
+  position: relative;
+  width: 29.5px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: -17px;
+}
+.completed {
+  position: absolute;
+  top: 159px;
+  left: 1262.5px;
+  width: 234.8px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-6xl);
+  color: var(--color-mediumseagreen);
+}
+.back1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 47.9px;
+  height: 19.2px;
+  flex-shrink: 0;
+}
+.back,
+.learnParent {
+  position: absolute;
+  box-sizing: border-box;
+}
+.back {
+  cursor: pointer;
+  border: 1px solid var(--color-deepskyblue);
+  padding: 6.3853759765625px 0;
+  background-color: var(--color-azure);
+  top: 13px;
+  left: 101.2px;
+  width: 140.5px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.back:hover {
+  background-color: var(--color-deepskyblue);
+}
+.learnParent {
+  top: 101px;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-dimgray-900);
+  width: 1512px;
+  height: 199px;
+}
+.navbarParent {
+  position: relative;
+  width: 1512px;
+  height: 983px;
+}
+.unoListVocabCards {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
