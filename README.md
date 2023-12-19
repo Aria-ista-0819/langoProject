@@ -12,6 +12,7 @@ Team members: Yun Ei Hlaing, Yohan Sebastian Sofian, and Lily Alvarado
   This is a rough implementation language learning project made for the CSC 484 UI/UX class.
 
   Demo video on <a href="https://youtu.be/TKCijOcwr24">YouTube</a>
+  
   Demo video is also located in our shared drive folder in the Photo and Video folder, you'll probably have to download it there.
   
   Utilized figma to code plug-ins to produce an MVP in time for final grading.
