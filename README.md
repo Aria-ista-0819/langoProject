@@ -11,6 +11,7 @@
 
   This is a rough implementation language learning project made for the CSC 484 UI/UX class.
 
-  Demo video on <a href="https://youtu.be/TKCijOcwr24">YouTube</a>
+  Demo video on <a href="https://youtu.be/TKCijOcwr24">youtube</a>
+  
   ---
   Utilized figma to code plug-ins to produce an MVP in time for final grading.
