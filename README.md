@@ -1,6 +1,6 @@
 
  # langoProject
-
+  
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
   To preview and run the project on your device:
@@ -9,4 +9,8 @@
   3) Run `npm start` to view project in browser
   
 
-This is a rough implementation language learning project made for the CSC UI/UX class 
+  This is a rough implementation language learning project made for the CSC 484 UI/UX class.
+
+  Demo video on <a href="https://youtu.be/TKCijOcwr24">YouTube</a>
+  ---
+  Utilized figma to code plug-ins to produce an MVP in time for final grading.
