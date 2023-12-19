@@ -1,5 +1,6 @@
 
  # langoProject
+Team members: Yun Ei Hlaing, Yohan Sebastian Sofian, and Lily Alvarado
   
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
